@@ -30,7 +30,7 @@ export const Contact = () => {
               </CardHeader>
               <CardContent>
                 <Button variant="outline" className="w-full" asChild>
-                  <a href="mailto:contact@nghiatran.dev">
+                  <a href="mailto:nghia.trantrong0905@gmail.com">
                     Send Message
                   </a>
                 </Button>
@@ -81,7 +81,6 @@ export const Contact = () => {
                     <h4 className="font-semibold">Available For</h4>
                     <ul className="text-sm text-muted-foreground space-y-1">
                       <li>• Internship Opportunities</li>
-                      <li>• Junior Developer Roles</li>
                       <li>• Open Source Projects</li>
                       <li>• Learning Collaborations</li>
                     </ul>
@@ -90,7 +89,7 @@ export const Contact = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
                   <Button className="flex-1" asChild>
-                    <a href="mailto:contact@nghiatran.dev">
+                    <a href="mailto:nghia.trantrong0905@gmail.com">
                       <Mail className="mr-2 h-4 w-4" />
                       Send Email
                     </a>

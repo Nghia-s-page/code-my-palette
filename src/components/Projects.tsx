@@ -4,6 +4,20 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
+    title: "CourseCamp - Online Course Management",
+    description: "Architected the backend infrastructure and database schema utilizing a strict MVC pattern. Developed core RESTful APIs for course management and successfully integrated third-party services including OAuth for authentication and VNPay for seamless transactions.",
+    technologies: ["Node.js", "Express.js", "PostgreSQL", "Prisma ORM", "JWT", "VNPay API"],
+    githubUrl: "https://github.com/NewtakaNghia/CourseCamp-Backend",
+    type: "Backend Project"
+  },
+  {
+    title: "1-on-1 Tutor Support System",
+    description: "Engineered the core scheduling logic and RESTful APIs to facilitate accurate mentor-student pairing. Designed a maintainable PostgreSQL database and actively coordinated backend-frontend integration to deliver a fully functional matching platform.",
+    technologies: ["Node.js", "Express.js", "PostgreSQL", "Prisma ORM", "API Design"],
+    githubUrl: "https://github.com/luquocphap/Tutor-Support-System-Backend",
+    type: "Full-Stack Integration"
+  },
+  {
     title: "Mathematical Modeling Assignment",
     description: "Advanced mathematical modeling project using Python for computational analysis and algorithmic problem-solving. Demonstrates proficiency in mathematical concepts and programming implementation.",
     technologies: ["Python", "Mathematical Modeling", "Algorithms", "Data Analysis"],
@@ -16,20 +30,6 @@ const projects = [
     technologies: ["C++", "HTTP Protocols", "CRUD Operations", "API Design"],
     githubUrl: "https://github.com/NewtakaNghia/CS23_FW_Task_2",
     type: "Full-Stack Project"
-  },
-  {
-    title: "React Frontend Application",
-    description: "Modern React-based frontend application showcasing responsive design principles and user interface development skills with contemporary web technologies.",
-    technologies: ["React", "JavaScript", "Responsive Design", "Modern UI"],
-    githubUrl: "https://github.com/NewtakaNghia/CS23_FW_Task_2",
-    type: "Frontend Project"
-  },
-  {
-    title: "E-Books Collection Platform",
-    description: "Curated collection of educational e-books and resources, demonstrating content organization and web development skills for educational technology platforms.",
-    technologies: ["JavaScript", "Web Development", "Content Management", "Educational Tech"],
-    githubUrl: "https://github.com/NewtakaNghia/tiennhm-ebooks",
-    type: "Web Platform"
   }
 ];
 
@@ -124,7 +124,6 @@ export const Projects = () => {
               className="w-full max-w-md mx-auto mb-6"
             />
             <div className="text-sm text-muted-foreground">
-              <p>📈 13 contributions in the last year</p>
               <p>🎯 Focused on quality over quantity in project development</p>
             </div>
           </div>

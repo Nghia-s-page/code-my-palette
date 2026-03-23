@@ -59,7 +59,9 @@ export const Hero = () => {
               className="px-8 py-6 text-lg"
               asChild
             >
-              <a href="#contact">
+              <a 
+                href="./CV_Intern_Backend_Trong_Nghia.pdf"
+                download="CV_Intern_Backend_Trong_Nghia.pdf">
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
               </a>

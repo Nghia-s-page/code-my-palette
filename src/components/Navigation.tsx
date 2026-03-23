@@ -25,7 +25,7 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <span className="text-2xl font-bold gradient-text">
-              TN
+              Trọng Nghĩa
             </span>
           </div>
 
